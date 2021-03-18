@@ -8,7 +8,10 @@
 	<name>auth10-federation</name>
 	<packaging>jar</packaging>
 	<description>WS-Federation and SAML tokens library to secure Java-based applications</description>
-
+	<properties>
+   <maven.compiler.source>1.6</maven.compiler.source>
+   <maven.compiler.target>1.6</maven.compiler.target>
+ </properties>
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
